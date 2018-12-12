@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device=-width, initial-scale=1" charset="UTF-8">
+    <title>Contact</title>
+    <link rel="shortcut icon" href="img/favicon.ico"/>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+        }
+
+        body {
+            background-color: #d8d096;
+        }
+
+        .wrapper {
+            width: 1180px;
+            height: 800px;
+            background-image: url("img/mims_background_texture.jpg");
+            position: relative;
+            margin: 0 auto;
+        }
+
+        /*BEGINNING OF NAV*/
+        .nav-container {
+            width: 1180px;
+            height: 80px;
+            background-color: darkgreen;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .logo {
+            width: 200px;
+            height: 80px;
+            font-size: 36px;
+            color: white;
+            margin: 20px 50px 0 25px;
+            display: inline-block;
+        }
+
+        .nav {
+            width: 25px;
+            height: 50px;
+            /*background-color: violet;*/
+            font-size: 18px;
+            color: white;
+            /*margin: 0 auto;*/
+            /*padding-left: 175px;*/
+            padding: 0 96px;
+            display: inline-block;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        /*END OF NAV*/
+
+        /*BEGINNING OF CONTENT*/
+
+        .food {
+            width: 1000px;
+            height: 580px;
+            background-color: rgba(216, 208, 150, .85);
+            /*opacity: .85;*/
+            position: relative;
+            margin: 0 auto;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .title {
+            position: absolute;
+            font-size: 12px;
+            width: 320px;
+            height: 60px;
+            top: 40px;
+            left: 340px;
+        }
+
+        .map {
+            color: white;
+            position: absolute;
+            background-color: darkgreen;
+            width: 300px;
+            height: 300px;
+            top: 140px;
+            right: 100px;
+        }
+
+        .hours {
+            position: absolute;
+            padding:10px;
+            color: white;
+            background-color: darkgreen;
+            width: 300px;
+            height: 310px;
+            top: 140px;
+            left: 100px;
+            display:flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .availability {
+            color:white;
+            position: relative;
+            text-align: center;
+            font-size: 16px;
+            /*height: 200px;*/
+            /*width: 300px;*/
+            /*background-color: lightblue;*/
+
+
+        }
+
+        .phone-number {
+            color:white;
+            position: relative;
+            text-align: center;
+            font-size: 16px;
+            /*height: 200px;*/
+            /*width: 300px;*/
+            /*background-color: lightblue;*/
+
+        }
+
+        .email {
+            color:white;
+            position: relative;
+            text-align: center;
+            font-size: 16px;
+            /*height: 200px;*/
+            /*width: 300px;*/
+            /*background-color: lightblue;*/
+
+        }
+
+        .social-media {
+            color:white;
+            position: relative;
+            text-align: center;
+            font-size: 16px;
+            /*height: 200px;*/
+            /*width: 300px;*/
+            /*background-color: lightblue;*/
+        }
+
+        /*END OF CONTENT*/
+
+        footer {
+            width: 1180px;
+            height: 80px;
+            background-color: darkgreen;
+            margin: 0 auto;
+            position: absolute;
+            bottom: 0;
+            text-align: center;
+        }
+
+        .footer-info {
+            color: white;
+            font-size: 16px;
+            display: inline-block;
+            margin: 0 auto;
+            margin-top: 30px;
+            padding: 0 95px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="wrapper">
+
+    <div class="nav-container">
+
+        <div class="logo"><a href="home.html">Mim's Cafe</a></div>
+
+        <div class="nav"><a href="menu.html">Menu</a></div>
+
+        <div class="nav"><a href="catering.html">Catering</a></div>
+
+        <div class="nav"><a href="contact.html">Contact</a></div>
+
+        <div class="nav"><a href="">Reviews</a></div>
+
+    </div>
+    <!--end of nav bar-->
+    <!--start of content-->
+    <div class="food">
+
+        <div class="title">
+            <h1>Contact Us</h1>
+        </div>
+
+        <div class="map">
+            <h2>Location</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2821.993612590875!2d-93.18976678405501!3d44.98444087909802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b32c84c0ad25c9%3A0x3ad8766569972b01!2sMim&#39;s+Cafe!5e0!3m2!1sen!2sus!4v1542641042453"
+                    width="300" height="280" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+
+        <div class="hours">
+            <h2>Cafe Hours</h2>
+            <div class="availability">
+                <h4>Hours</h4>
+                <p>Mon - Fri 11:00 am - 09:00 pm</p>
+            </div>
+            <div class="phone-number">
+                <h4>Phone Number</h4>
+                <p>Dial: (651) 646-0456</p>
+            </div>
+            <div class="email">
+                <h4>Email</h4>
+                <p>shaheeninc@gmail.com</p>
+            </div>
+            <div class="social-media">
+                <h4>Social Media</h4>
+                <p>Facebook</p>
+                <p>Instagram</p>
+            </div>
+        </div>
+    </div>
+
+<footer>
+    <!--<div class="footer-wrapper">-->
+    <div class="footer-info"> Monday-Friday, 11am - 9pm</div>
+
+    <div class="footer-info"> 1435 Cleveland Ave N, Saint Paul, MN 55108</div>
+
+    <div class="footer-info"> (651) 646-0456</div>
+    <!--</div>-->
+</footer>
+
+</div>
+<!--end of wrapper-->
+</body>
+</html>
+
+
