@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta name="viewport" content="width=device=-width, initial-scale=1" charset="UTF-8">
-    <title>Catering Services</title>
-    <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>Contact</title>
+    <link rel="shortcut icon" href="img/favicon.ico"/>
 
     <style>
         * {
@@ -23,9 +23,10 @@
             margin: 0 auto;
         }
 
-
         /*BEGINNING OF NAV*/
         .nav-container {
+            font-family: 'Sorts Mill Goudy', serif;
+            color: #e6ffe6;
             width: 1180px;
             height: 80px;
             background-color: darkgreen;
@@ -36,8 +37,7 @@
         .logo {
             width: 200px;
             height: 80px;
-            font-size: 36px;
-            color: white;
+            font-size: 38px;
             margin: 20px 50px 0 25px;
             display: inline-block;
         }
@@ -45,18 +45,14 @@
         .nav {
             width: 25px;
             height: 50px;
-            /*background-color: violet;*/
             font-size: 18px;
-            color: white;
-            /*margin: 0 auto;*/
-            /*padding-left: 175px;*/
             padding: 0 96px;
             display: inline-block;
         }
 
         a {
             text-decoration: none;
-            color: white;
+            color: #e6ffe6;
         }
 
         /*END OF NAV*/
@@ -66,8 +62,7 @@
         .food {
             width: 1000px;
             height: 580px;
-            background-color: rgba(216,208,150,.85);
-            /*opacity: .85;*/
+            background-color: rgba(216, 208, 150, .85);
             position: relative;
             margin: 0 auto;
             margin-top: 30px;
@@ -76,47 +71,39 @@
 
         .title {
             position: absolute;
-            font-size:12px;
-            width: 320px;
-            height: 60px;
-            top: 40px;
-            left:340px;
-        }
-
-
-        .hours {
-            position: absolute;
-            color: white;
             background-color: darkgreen;
-            width: 800px;
-            height: 220px;
-            bottom: 40px;
-            left:100px;
-            padding:10px;
+            font-family: 'Sorts Mill Goudy', serif;
+            color: #e6ffe6;
+            font-size: 12px;
+            padding: 5px;
+            width: 1000px;
+            height: 40px;
+            margin: 0 auto;
         }
 
         .mims-photo {
             position: absolute;
-            color: white;
-            background-color: darkgreen;
-            width: 800px;
-            height: 260px;
-            top: 40px;
-            left:100px;
-            padding:10px;
+            width: 1000px;
+            margin: 0 auto;
+            margin-top: 40px;
         }
 
-        p{
+        .hours {
+            position: absolute;
             text-align: left;
-            line-height: 25px;
+            color: black;
+            font-size: 16px;
+            font-family: Avenir, sans-serif;
+            width: 1000px;
+            height: 200px;
+            bottom: 60px;
+            padding: 20px;
         }
-
-
-        /*END OF CONTENT*/
 
         footer {
             width: 1180px;
             height: 80px;
+            font-family: 'Sorts Mill Goudy', serif;
             background-color: darkgreen;
             margin: 0 auto;
             position: absolute;
@@ -140,7 +127,9 @@
 
     <div class="nav-container">
 
-        <div class="logo"><a href="home.html">Mim's Cafe</a></div>
+        <div class="logo">
+            <link href="https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy" rel="stylesheet">
+            <a href="home.html">Mim's Cafe</a></div>
 
         <div class="nav"><a href="menu.html">Menu</a></div>
 
@@ -148,32 +137,38 @@
 
         <div class="nav"><a href="contact.html">Contact</a></div>
 
-        <div class="nav"><a href="">Reviews</a></div>
+        <div class="nav">Reviews</div>
 
     </div>
     <!--end of nav bar-->
     <!--start of content-->
     <div class="food">
-
         <div class="title">
-            <h1>Catering Services</h1>
-        </div>
-
-        <div class="hours">
-            <p>We provide a buffet of items from our menu suitable for any occasion, and delivery is free of charge...<br><br>
-
-                Call us during our business hours (M-F, 11am-9pm) at 651-646-0456 For an immediate response, or e-mail us at shaheensinc@gmail.com if you have further questions or need more details, and we will respond to you within 24 hours.<br><br>
-
-                <i>For $8 a person, you will receive Chicken Muraf (marinated chicken breast, sautéed with onion and green bell peppers), falafel, hummus, rice, salad, and pita bread. We make sure to provide enough of each selection for all your guests, whether they are vegetarian or meat eaters.
-
-                For $10 will include the above plus kutfa kabobs.</i>
-            </p>
+            <h1>
+                <link href="https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy" rel="stylesheet">
+                Our Catering Services
+            </h1>
         </div>
 
         <div class="mims-photo">
-            <img src="img/mim's_exterior.JPG" alt="Mim's Cafe" style="width:100%">
+            <img src="img/chicken_muraf.jpg" alt="Mim's Cafe" style="width:1000px" height="240px">
         </div>
 
+        <div class="hours">
+            <p>We provide a buffet of items from our menu suitable for any occasion, and delivery is free of
+                charge...<br><br>
+
+                Call us during our business hours (M-F, 11am-9pm) at 651-646-0456 for an immediate response, or e-mail
+                us at shaheensinc@gmail.com if you have further questions or need more details, and we will respond to
+                you within 24 hours.<br><br>
+
+                <i>For $8 a person, you will receive Chicken Muraf (marinated chicken breast, sautéed with onion and
+                    green bell peppers), falafel, hummus, rice, salad, and pita bread. We make sure to provide enough of
+                    each selection for all your guests, whether they are vegetarian or meat eaters.
+
+                    For $10 will include the above plus kutfa kabobs.</i>
+            </p>
+        </div>
     </div>
 
     <footer>

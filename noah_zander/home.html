@@ -3,7 +3,7 @@
 <head>
     <meta name="viewport" content="width=device=-width, initial-scale=1" charset="UTF-8">
     <title>Mim's Cafe</title>
-    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="shortcut icon" href="img/favicon.ico"/>
 
     <style>
         * {
@@ -23,20 +23,22 @@
             margin: 0 auto;
         }
 
+        /*BEGINNING OF NAV*/
+
         .nav-container {
+            font-family: 'Sorts Mill Goudy', serif;
+            color: #e6ffe6;
             width: 1180px;
             height: 80px;
             background-color: darkgreen;
             margin: 0 auto;
-            /*padding-left: 62px;*/
             position: relative;
         }
 
         .logo {
             width: 200px;
             height: 80px;
-            font-size: 36px;
-            color: white;
+            font-size: 38px;
             margin: 20px 50px 0 25px;
             display: inline-block;
         }
@@ -44,19 +46,17 @@
         .nav {
             width: 25px;
             height: 50px;
-            /*background-color: violet;*/
             font-size: 18px;
-            color: white;
-            /*margin: 0 auto;*/
-            /*padding-left: 175px;*/
             padding: 0 96px;
             display: inline-block;
         }
 
         a {
             text-decoration: none;
-            color: white;
+            color: #e6ffe6;
         }
+
+        /*END OF NAV*/
 
         /* Slideshow*/
         .slideshow-container {
@@ -167,13 +167,14 @@
             padding: 8px 12px;
             position: absolute;
             top: 0;
-            right:0;
+            right: 0;
 
         }
 
         /*End of Slideshow*/
 
         footer {
+            font-family: 'Sorts Mill Goudy', serif;
             width: 1180px;
             height: 80px;
             background-color: darkgreen;
@@ -199,7 +200,9 @@
 
     <div class="nav-container">
 
-        <div class="logo"><a href="home.html">Mim's Cafe</a></div>
+        <div class="logo">
+            <link href="https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy" rel="stylesheet">
+            <a href="home.html">Mim's Cafe</a></div>
 
         <div class="nav"><a href="menu.html">Menu</a></div>
 
@@ -207,7 +210,7 @@
 
         <div class="nav"><a href="contact.html">Contact</a></div>
 
-        <div class="nav"><a href="#section_04">Reviews</a></div>
+        <div class="nav">Reviews</div>
 
     </div>
 
@@ -218,31 +221,31 @@
         <div class="mySlides fade">
             <div class="numbertext">1/5</div>
             <img src="img/home_page_img_1.jpg" alt="Shiek Platter with Falafel and Veggie Kabob" style="width:100%">
-            <p class="slideshow_description" >Yummy Food</p>
+            <p class="slideshow_description">Shiek Platter with Falafel and Veggie Kabob</p>
         </div>
 
         <div class="mySlides fade">
             <div class="numbertext">2/5</div>
             <img src="img/home_page_img_2.jpg" alt=" Shiek Platter with Falafel and Veggie Kabob" style="width:100%">
-            <p class="slideshow_description" >Shiek Platter with Falafel and Veggie Kabob</p>
+            <p class="slideshow_description">Shiek Platter with Falafel and Veggie Kabob</p>
         </div>
 
         <div class="mySlides fade">
             <div class="numbertext">3/5</div>
             <img src="img/home_page_img_3.jpg" alt="Hummus" style="width:100%">
-            <p class="slideshow_description" >Hummus</p>
+            <p class="slideshow_description">Hummus</p>
         </div>
 
         <div class="mySlides fade">
             <div class="numbertext">4/5</div>
             <img src="img/home_page_img_4.jpg" alt="Shawarma Sandwich" style="width:100%">
-            <p class="slideshow_description" >Shawarma Sandwich</p>
+            <p class="slideshow_description">Shawarma Sandwich</p>
         </div>
 
         <div class="mySlides fade">
             <div class="numbertext">5/5</div>
             <img src="img/home_page_img_5.jpg" alt="Tilapia Plate" style="width:100%">
-            <p class="slideshow_description" >Tilapia Plate</p>
+            <p class="slideshow_description">Tilapia Plate</p>
         </div>
 
         <!-- Next and previous buttons -->
